@@ -1,6 +1,3 @@
-Here is the clean, unformatted text block. You can copy this entire section in one click and paste it directly into your terminal editor.
-
-```markdown
 # 🩺 HealthHive: AI-Powered Symptom Classifier & Diagnosis API
 
 HealthHive is a production-ready Machine Learning API built with **FastAPI** and **Scikit-Learn** that classifies user-submitted symptoms into medical specialties, predicts the top 3 most likely conditions, identifies potential macronutrient deficiencies, and suggests clinical diagnostic tests. 
