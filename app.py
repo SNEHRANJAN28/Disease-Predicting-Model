@@ -10,7 +10,7 @@ import string
 
 app = FastAPI(title="HEALTHHIVE API", version="1.0.0")
 
-df = pd.read_csv("patient_dataset_100k_updated.csv")
+df = pd.read_csv("patient_dataset_100k_updated.csv(1)")
 
 le_category = LabelEncoder()
 df["Category_Encoded"] = le_category.fit_transform(df["Category"])
