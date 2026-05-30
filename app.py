@@ -1,4 +1,5 @@
 from fastapi import FastAPI
+print("APP STARTING...")
 from pydantic import BaseModel
 import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
@@ -11,6 +12,7 @@ import string
 app = FastAPI(title="HEALTHHIVE API", version="1.0.0")
 
 df = pd.read_csv("patient_dataset_100k_updated(1).csv")
+print("CSV LOADED")
 
 le_category = LabelEncoder()
 df["Category_Encoded"] = le_category.fit_transform(df["Category"])
